@@ -1,15 +1,15 @@
 <?php
 /**
  * @file
- * Contains LushDigital\MicroServiceModelUtils\Contracts\Cacheable.
+ * Contains biliboobrian\MicroServiceModelUtils\Contracts\Cacheable.
  */
 
-namespace LushDigital\MicroServiceModelUtils\Contracts;
+namespace biliboobrian\MicroServiceModelUtils\Contracts;
 
 /**
  * A contract to indicate the output of a class is cacheable.
  *
- * @package LushDigital\MicroServiceModelUtils\Contracts
+ * @package biliboobrian\MicroServiceModelUtils\Contracts
  */
 interface Cacheable
 {

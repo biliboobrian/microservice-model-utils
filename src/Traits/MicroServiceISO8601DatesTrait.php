@@ -1,10 +1,10 @@
 <?php
 /**
  * @file
- * Contains \LushDigital\MicroServiceModelUtils\Traits\MicroServiceISO8601DatesTrait.
+ * Contains \biliboobrian\MicroServiceModelUtils\Traits\MicroServiceISO8601DatesTrait.
  */
 
-namespace LushDigital\MicroServiceModelUtils\Traits;
+namespace biliboobrian\MicroServiceModelUtils\Traits;
 
 use DateTime;
 
@@ -14,7 +14,7 @@ use DateTime;
  * Note that we are using the DateTime::ATOM constant instead of
  * DateTime::ISO8601 because that isn't actually compatible with ISO-8601...
  *
- * @package LushDigital\MicroServiceModelUtils\Traits
+ * @package biliboobrian\MicroServiceModelUtils\Traits
  */
 trait MicroServiceISO8601DatesTrait
 {

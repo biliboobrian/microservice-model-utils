@@ -1,18 +1,18 @@
 <?php
 /**
  * @file
- * Contains \LushDigital\MicroServiceModelUtils\Models\MicroServiceBaseModel.
+ * Contains \biliboobrian\MicroServiceModelUtils\Models\MicroServiceBaseModel.
  */
 
-namespace LushDigital\MicroServiceModelUtils\Models;
+namespace biliboobrian\MicroServiceModelUtils\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use LushDigital\MicroServiceModelUtils\Contracts\Cacheable;
+use biliboobrian\MicroServiceModelUtils\Contracts\Cacheable;
 
 /**
  * A base model class that can be used in a microservice.
  *
- * @package LushDigital\MicroServiceModelUtils\Models
+ * @package biliboobrian\MicroServiceModelUtils\Models
  */
 abstract class MicroServiceBaseModel extends Model implements Cacheable
 {

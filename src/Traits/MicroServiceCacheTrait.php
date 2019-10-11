@@ -1,20 +1,20 @@
 <?php
 /**
  * @file
- * Contains \LushDigital\MicroServiceModelUtils\Traits\MicroServiceCacheTrait.
+ * Contains \biliboobrian\MicroServiceModelUtils\Traits\MicroServiceCacheTrait.
  */
 
-namespace LushDigital\MicroServiceModelUtils\Traits;
+namespace biliboobrian\MicroServiceModelUtils\Traits;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Cache;
-use LushDigital\MicroServiceModelUtils\Contracts\Cacheable;
+use biliboobrian\MicroServiceModelUtils\Contracts\Cacheable;
 
 /**
  * A trait for handling caching in a microservice.
  *
- * @package LushDigital\MicroServiceModelUtils\Traits
+ * @package biliboobrian\MicroServiceModelUtils\Traits
  */
 trait MicroServiceCacheTrait
 {
